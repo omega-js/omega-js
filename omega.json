@@ -1,0 +1,13 @@
+{
+    "projectName": "OmegaProject",
+
+    "backendDir": "backend/",
+    "frontendDir": "frontend/",
+    "s3Bucket": "",
+    "profile": "",
+    "stage": "dev",
+    "deploy": {
+        "back": "backend",
+        "front": "frontend"
+    }
+}

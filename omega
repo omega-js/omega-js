@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+console.log("OmegaJS.com - the full-stack serverless framework.");
+
+var Core = require('./lib/core.js');
+
+
+var core = new Core();
+core.process(process.argv);
